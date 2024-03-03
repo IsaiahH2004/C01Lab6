@@ -1,11 +1,11 @@
 services:
   frontend:
-    image: quirknotes_frontend
+    image: ihuska2004/quirknotes_frontend
     ports:
     - "3000:80"
 
   backend:
-    image: quirknotes_backend
+    image: ihuska2004/quirknotes_backend
     ports:
     - "4000:4000"
     environment:
